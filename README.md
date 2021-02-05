@@ -1,6 +1,26 @@
 # strategy-pattern
 
+Question
+You have been hired by the company “Numerical Solutions Inc” and you
+are in charge of their new project “LinearSolverDeluxe”.
+The project’s objective is to design and implement a Java application with a single functionality: it
+admits as input from the user a system of linear equations and outputs its solution, if it exists, or an
+error message otherwise.
+The customer:
+- wants the software to support at least two methods of solving linear equations: Gaussian
+elimination and matrix inversion.
+- wants to be able to change between solving methods dynamically.
+- might need more functionalities in the future (e.g. determinant calculation, etc).
+You will:
+- Provide the class diagrams with the appropriate arrows and contents (in detail; all the methods and
+variables involved with the appropriate access rights), that satisfies the customer’s requirements;
+strive for maximum flexibility, loose coupling and minimize maintenance costs!
+- Implement in Java the above software (user interfacing technique, way of admitting input, way of
+outputting, that’s all up to you).
 
+
+
+report
 The customer may request other equations instead of
 linear equation in the future.
 So I installed a generic equation abstract class.
